@@ -9,6 +9,7 @@ def main(auth,host):
     h=click.prompt("HOST ID             ")
     click.echo(f"AUTHENTICATION TOKEN ENTERED IS {a}")
     click.echo(f"HOST ID ENTERED IS {h}")
+ print("EvalAl is Configured")
     
 
 if __name__=='__main__':
