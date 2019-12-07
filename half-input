@@ -1,0 +1,15 @@
+import click
+
+@click.command()
+
+@click.option('--auth')
+@click.option('--host')
+def main(auth,host):
+    a=click.prompt("AUTHENTICATION TOKEN")
+    h=click.prompt("HOST ID             ")
+    click.echo(f"AUTHENTICATION TOKEN ENTERED IS {a}")
+    click.echo(f"HOST ID ENTERED IS {h}")
+    
+
+if __name__=='__main__':
+    main()
